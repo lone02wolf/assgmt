@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>slide-in popup</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="btn">
+      <button class="open-btn">+ Create new user</button>
+    </div>
+    <div class="popup">
+      <div class="popup-overlay"></div>
+      <div class="main-popup">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <p>New User</p>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email ID:</label>
+          <input type="text" id="email" name="email"><br><br>
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="scpt.js"></script>
+</body>
+
+</html>
